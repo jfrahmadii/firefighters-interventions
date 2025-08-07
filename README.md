@@ -68,12 +68,15 @@ To run the analysis, open and execute the main Jupyter Notebook. Ensure all requ
 ## 5. Key Findings
 
 To get a better understanding of the results of the model, features that contributed most to the model have been extracted. The following list shows these features.
-* **Intersection**: accidents happened more on intersections
+* **Intersection**
 * **Commercial region**
 * **Industrial region**
-* **Day light**: accidents happened more during days with good lighting
+* **Day light**
 * **Clear weather**
-  
+* **Lane characteristics**
+
+(To understand codes for features inside the model, please check this [link](https://donnees.montreal.ca/dataset/cd722e22-376b-4b89-9bc2-7c7ab317ef6b/resource/f69c656e-9c0c-4763-bb5b-33e5ca46713c/download/rapports-accident-documentation.pdf) out!)
+
 The findings of this analysis suggest that the risk of accidents requiring significant firefighter interventions may not be primarily driven by environmental factors. The predictive model indicates that even under what appear to be ideal weather and road surface conditions, intersections are strongly associated with high-risk events. This suggests that the root cause of these incidents could be less conditional and more structural, pointing to potential challenges in the geometry, traffic flow, and signal management of the intersections themselves. According to the model, accidents at intersections within commercial zones show a particularly strong correlation with events that place a strain on emergency services. Therefore, based on these findings, a targeted engineering review of these specific high-risk locations is recommended. A proactive focus on optimizing signal timing, re-evaluating lane configurations, and enhancing pedestrian safety measures at these key intersections appears to be a promising and potentially high-impact strategy for mitigating severe accidents and reducing the operational load on the fire department
 
 ## 6. Future Work
